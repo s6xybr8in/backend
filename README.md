@@ -30,7 +30,7 @@ public class Name{
 ```
 using import:
 ```java
-import Spring
+import Spring;
 
 main(){
 	Spring.Name.a = 10;
@@ -72,7 +72,13 @@ public class Dog{
 ## super and super()
 
 ## Overloading and Overiding
+### Overloading
+- 정의: 자바의 한 클래스 내에 이미 사용하려는 이름과 같은 이름을 가진 메소드가 있더라도 매개변수의 개수 또는 타입이 다르면, 같은 이름을 사용해서 메소드를 정의할 수 있다.
+- **메소드의 이름이 같고, 매개변수의 개수나 타입이 달라야 한다.**
+- **접근 제어자도 자유롭게 지정**
 
+### Overiding
+- 정의: **부모 클래스로부터 상속받은 메소드를 자식 클래스에서 재정의**
 ## Abstract and Interface
 
 ## Framework vs Library
