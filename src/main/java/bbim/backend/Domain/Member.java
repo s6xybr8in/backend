@@ -1,5 +1,4 @@
-package bbim.backend.DTO;
-
+package bbim.backend.Domain;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -9,11 +8,11 @@ import java.util.List;
 
 @Getter
 @Setter
-public class Member {
+public class Member{
     private Long id;
     private String name;
     private int age;
-    private List<Post> posts = new ArrayList<>();
+    private List<Post> posts = new ArrayList<>()t<>();
 
     @Builder
     private Member(String name, int age) {
