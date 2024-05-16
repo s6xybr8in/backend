@@ -1,4 +1,4 @@
-[# Week1
+# Week1
 
 - package, class, instance, object, access modifer(접근 지정자)
 - super, super()
