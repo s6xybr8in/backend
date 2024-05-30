@@ -12,7 +12,7 @@ public class Member{
     private Long id;
     private String name;
     private int age;
-    private List<Post> posts = new ArrayList<>()t<>();
+    private List<Post> posts = new ArrayList<>();
 
     @Builder
     private Member(String name, int age) {
